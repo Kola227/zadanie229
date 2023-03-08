@@ -1,0 +1,110 @@
+<!-- Страница бронирования(Booking) -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="drive, car, index Drive">
+    <link rel="stylesheet" href="booking.css">
+    <title>Index Drive</title>
+</head>
+<body>
+    <!-- Секция "Шапка сайта" -->
+    <section class="hatLandingPage">
+        <a href="index.html"><img class="imgLogotype" src="logotype.png" alt="Фотография логотипа"></a>
+          <ul>
+           <li class="firstItemNavbar"><a class="linkNavbar" href="">Акции</a></li>
+           <li class="secondItemNavbar"><a class="linkNavbar" href="booking.html">Бронирование</a></li>
+           <li class="thirdItemNavbar"><a class="linkNavbar" href="login.html">Личный кабинет</a></li>
+          </ul>
+      </section>
+      <!-- Cекция "Данные о авто" -->
+      <section class="dateCar">
+        <h1 class="dateCarFirst">Данные о автомобилях</h1>
+        <h2 class="dateCarVaz">Идентификатор машины - 192398
+            <p>Марка авто - ВАЗ</p>
+            <p>Название авто - ВАЗ 2101</p>
+            <p>Номер машины - Б777ОГ</p>
+            <p><img class="vaz2101" src="1200x900.png" alt=""></p>
+            <p><label for="date">Дата бронирования:</label>
+                <input type="date" id="date" name="date">
+            </p>
+            <p><label for="date1">Дата возврата:</label>
+                <input type="date" id="date1" name="date1">
+            </p>
+            <p>Стоимость бронирования - 24час/200₽</p>
+            <p>Филиал "ИндексДрайвик2004"</p>
+            <p> 
+               <label for="dateCarVaz1">Забронировать</label>
+               <input type="checkbox" id="dateCarVaz1"
+                name="dateCarVaz1" value="dateCarVaz1">
+            </p>
+        </h2>
+
+        <h2 class="dateCarLada">Идентификатор машины - 2281488
+            <p>Марка авто - Lada</p>
+            <p>Название авто - Lada Granta</p>
+            <p>Номер машины - Л666ОХ</p>
+            <p><img class="imglada" src="ladagran123.png" alt=""></p>
+            <p><label for="date">Дата бронирования:</label>
+                <input type="date" id="date" name="date">
+            </p>
+            <p><label for="date1">Дата возврата:</label>
+                <input type="date" id="date1" name="date1">
+            </p>
+            <p>Стоимость бронирования - 24час/4500₽</p>
+            <p>Филиал "ИндексДрайвик2004"</p>
+            <p> 
+               <label for="dateCarLada1">Забронировать</label>
+               <input type="checkbox" id="dateCarLada1"
+                name="dateCarLada1" value="dateCarLada1">
+            </p>
+        </h2>
+      </section>
+      <!-- Cекция "Данные о клиенте" -->
+
+      <section class="dateClient">
+        <h1 class="dateCliFirst">Данные о клиенте</h1>
+        <h2 class="dateFormCli">
+            <p>
+                <label for="firstname">Имя:</label>
+                <input class="inputCli" type="text" id="firstname" name="firstname">
+            </p>
+            <p>
+                <label for="secondname">Фамилия:</label>
+                <input class="inputCli" type="text" id="secondname" name="secondname">
+            </p>
+            <p>
+                <label for="thirdname">Отчество:</label>
+                <input class="inputCli" type="text" id="thirdname" name="thirdname">
+            </p>
+            <p>
+                <label for="tel">Номер телефона:</label>
+                <input class="inputCli" placeholder="+7 (912) xxx-xx-xx" type="tel" id="tel" name="tel">
+            </p>
+            <p>
+                <label for="passport">Паспортные данные:</label>
+                <input class="inputCli" placeholder="87-xx-xxxxxx" type="text" id="passport" name="passport">
+            </p>
+            <p>
+                <label for="credit">Банковская карта:</label>
+                <input class="inputCli" placeholder="2200-xxxx-xxxx-xxxx" type="text" id="credit" name="credit">
+            </p>
+            <p><label for="date20">Дата рождения:</label>
+                <input class="inputCli" type="date" id="date20" name="date20">
+            </p>
+        </h2>
+        <button class="buttonbooking" type="submit"><a class="linkButtonbooking" href="">Забронировать</a></button>
+      </section>
+      <!-- Подвал -->
+      <footer class="footerLandingPage">
+        <ul>
+            <li class="firstItemNavbarFooter"><a class="linkNavbar" href="">Акции</a></li>
+            <li class="secondItemNavbarFooter"><a class="linkNavbar" href="booking.html">Бронирование</a></li>
+            <li class="thirdItemNavbarFooter"><a class="linkNavbar" href="login.html">Личный кабинет</a></li>
+            <li class="fourItemNavbarFooter">8 (800) 111-11-11</li>
+        </ul>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+    padding-left: 0px;
+    margin: 0px;
+
+}
+/* Добавляем шрифты */
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap);
+/* font-family: 'Fira Sans', sans-serif; */
+
+/* Задаём статичный размер секции по ширине */
+.hatLandingPage { 
+    width: 1366px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 219, 221);
+    padding-bottom: 150px;
+}
+/* Настраиваем размер логотипа */
+.imgLogotype {
+    width: 200px;
+}
+/* Дизайн ссылок на панели навигации */
+
+.linkNavbar {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .2s;
+    font-size: 30px;
+}
+
+.linkNavbar:visited {
+    color: none;
+}
+
+.linkNavbar:hover {
+    color: rgb(100, 98, 98);
+    
+}
+
+/* Расстановка объектов навигации по горизонтали и их дизайн*/
+.firstItemNavbar {
+    display: inline-block;
+    background-color: rgb(75, 74, 74);
+    border: 10px solid rgb(75, 74, 74);
+    border-bottom-left-radius: 25px;
+    margin-left: 260px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.secondItemNavbar {
+    display: inline-block;
+    border: 10px solid rgb(75, 74, 74);
+    background-color: rgb(75, 74, 74);
+    margin-left: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.thirdItemNavbar {
+    display: inline-block;
+    border: 10px solid rgb(75, 74, 74);
+    background-color: rgb(75, 74, 74);
+    border-bottom-right-radius: 25px;
+    margin-left: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* Секция регистрации */
+.secRegister {
+    width: 1366px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 219, 221);
+}
+.dateCliFirst {
+    margin-left: 570px;
+    color: #ffffff;
+    background-color: rgb(75, 74, 74);
+    border: 10px solid rgb(75, 74, 74);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+}
+
+.dateFormCli {
+    margin-left: 400px;
+    width: 500px;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgb(75, 74, 74);
+    border: 10px solid rgb(75, 74, 74);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+
+.inputCli {
+    margin-left: 20px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(175, 174, 174);
+    border: 10px solid rgb(170, 170, 170);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.buttonbooking {
+    margin-top: 20px;
+    margin-left: 560px;
+    color: #ffffff;
+    background-color: rgb(75, 74, 74);
+    border: 10px solid rgb(75, 74, 74);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.linkButtonbooking {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.linkButtonbooking:visited {
+    color: none;
+}
+
+.linkButtonbooking:hover {
+    color: rgb(100, 98, 98);
+}
+
+.inputLogin {
+    margin-left: 20px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(175, 174, 174);
+    border: 10px solid rgb(170, 170, 170);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/* Задаём статичный размер секции "Подвал" */
+.footerLandingPage {
+    width: 1366px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 219, 221);    
+}
+.firstItemNavbarFooter {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: rgb(75, 74, 74);
+    border: 10px solid rgb(75, 74, 74);
+    border-top-left-radius: 25px;
+    margin-left: 260px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.secondItemNavbarFooter {
+    display: inline-block;
+    border: 10px solid rgb(75, 74, 74);
+    background-color: rgb(75, 74, 74);
+    margin-left: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.thirdItemNavbarFooter {
+    display: inline-block;
+    border: 10px solid rgb(75, 74, 74);
+    background-color: rgb(75, 74, 74);
+    border-top-right-radius: 25px;
+    margin-left: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.fourItemNavbarFooter {
+    display: inline-block;
+    border-bottom-right-radius: 25px;
+    margin-left: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+}
